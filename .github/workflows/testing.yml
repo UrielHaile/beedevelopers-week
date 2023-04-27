@@ -16,6 +16,6 @@ jobs:
       - name: Compile and run tests
         working-directory: ./build
         run: pwd
-      - run: ls ./
-      - run: cmake ./..
-      - run: make
+        run: ls ./
+        run: cmake ./..
+        run: make
