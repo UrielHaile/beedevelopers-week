@@ -19,4 +19,8 @@ jobs:
         run: cmake ./..
       - name: Compile project
         working-directory: ./build
-        run: make
+        run: maket
+      - name: Run test
+        working-directory: ./build
+        run: make test
+      
