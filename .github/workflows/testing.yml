@@ -19,7 +19,7 @@ jobs:
         run: cmake ./..
       - name: Compile project
         working-directory: ./build
-        run: maket
+        run: make
       - name: Run test
         working-directory: ./build
         run: make test
