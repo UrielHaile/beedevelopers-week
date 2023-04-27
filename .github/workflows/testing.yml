@@ -15,7 +15,7 @@ jobs:
       - run: mkdir build
       - name: Compile and run tests
         working-directory: ./build
-      - run: pwd
+        run: pwd
       - run: ls ./
       - run: cmake ./..
       - run: make
