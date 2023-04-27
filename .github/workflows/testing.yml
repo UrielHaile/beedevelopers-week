@@ -12,6 +12,7 @@ jobs:
       - uses: actions/checkout@v3
       - run: ls
       - run: sudo apt install libopencv-dev 
+      - run: sudo apt install libgtest-dev 
       - run: mkdir build
       - name: Configure projects
         working-directory: ./build
