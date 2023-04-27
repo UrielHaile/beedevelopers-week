@@ -13,7 +13,8 @@ jobs:
       - run: ls
       - run: sudo apt install libopencv-dev 
       - run: mkdir build
-      - run: working-directory ./build
+      - name: Compile and run tests
+        working-directory: ./build
       - run: pwd
       - run: ls ./
       - run: cmake ./..
